@@ -1,0 +1,12 @@
+[package]
+name = "brdgme-fuzz"
+version = "0.1.0"
+authors = ["Michael Alexander <beefsack@gmail.com>"]
+
+[dependencies]
+brdgme-cmd = { git = "https://github.com/brdgme/cmd.git" }
+brdgme-game = { git = "https://github.com/brdgme/game.git" }
+brdgme-rand-bot = { git = "https://github.com/brdgme/rand-bot.git" }
+failure = "0.1.1"
+rand = "0.4.2"
+num_cpus = "1.8.0"
