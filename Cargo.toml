@@ -10,3 +10,4 @@ brdgme-rand-bot = { git = "https://github.com/brdgme/rand-bot.git" }
 failure = "0.1.1"
 rand = "0.4.2"
 num_cpus = "1.8.0"
+serde = "1.0.0"
