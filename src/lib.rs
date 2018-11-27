@@ -1,14 +1,4 @@
-#[macro_use]
-extern crate failure;
-extern crate num_cpus;
-extern crate rand;
-extern crate serde;
-
-extern crate brdgme_cmd;
-extern crate brdgme_game;
-extern crate brdgme_rand_bot;
-
-use failure::Error;
+use failure::{bail, Error, format_err};
 use rand::{Rng, ThreadRng};
 use serde::de::DeserializeOwned;
 use serde::Serialize;
